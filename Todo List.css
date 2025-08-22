@@ -1,0 +1,45 @@
+body {
+  font-family: arial;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.input-field {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.suneel {
+  padding: 6px;
+  font-size: 15px;
+}
+.suneel2 {
+  padding: 6px;
+  font-size: 15px;
+}
+.s {
+  font-size: 15px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.hiii {
+  background-color: darkred;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.yugandhar {
+  margin-top: 50px;
+}

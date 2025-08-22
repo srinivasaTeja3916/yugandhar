@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>todo list</title>
+    <link rel="stylesheet" href="Todo List.css" />
+  </head>
+  <body>
+    <p>Todo List Practice 1</p>
+    <input
+      placeholder="todo name"
+      name="teja"
+      class="input-element"
+      onkeypress="if (event.key==='Enter') {append()}"
+    />
+    <button onclick="append();">Add</button>
+    <p class="hello"></p>
+
+    <p class="yugandhar">Todo List Practice 2</p>
+    <input
+      placeholder="todo name"
+      name="ntg"
+      class="input-element2"
+      onkeypress="if (event.key === 'Enter') {
+        append2();
+      }"
+    />
+    <button onclick="append2();">Add</button>
+    <div class="ntg"></div>
+    <p class="yugandhar">Todo List</p>
+
+    <div class="input-field">
+      <input placeholder="todo name" name="n" class="suneel" />
+      <input type="date" name="random" class="suneel2" />
+      <button onclick="append3()" class="s">Add</button>
+    </div>
+
+    <div class="bottom"></div>
+    <script src="Todo List.js"></script>
+  </body>
+</html>
